@@ -124,6 +124,7 @@ export default function connect(mapStateToProps, mapDispatchToProps, mergeProps,
              * 2、const storeState = this.store.getState();
              *    this.state={storeState:storeState}
              *    注意key为storeState
+             *
              */
             constructor(props, context) {
                 super(props, context)
