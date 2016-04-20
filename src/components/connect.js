@@ -100,7 +100,7 @@ export default function connect(mapStateToProps, mapDispatchToProps, mergeProps,
                 )
             }
         }
-
+        //帮助方法 合并属性
         function computeMergedProps(stateProps, dispatchProps, parentProps) {
             const mergedProps = finalMergeProps(stateProps, dispatchProps, parentProps)
             if (process.env.NODE_ENV !== 'production') {
@@ -109,14 +109,26 @@ export default function connect(mapStateToProps, mapDispatchToProps, mergeProps,
             return mergedProps
         }
 
+        /**
+         * 这才是真正返回的React组件
+         *
+         */
         class Connect extends Component {
             shouldComponentUpdate() {
                 return !pure || this.haveOwnPropsChanged || this.hasStoreStateChanged
             }
 
+            /**
+             * 主要干了两件事
+             * 1、取到 store 存储到this
+             * 2、const storeState = this.store.getState();
+             *    this.state={storeState:storeState}
+             *    注意key为storeState
+             */
             constructor(props, context) {
                 super(props, context)
                 this.version = version
+                //一般情况下，组件的store来自于context;由Provider提供;
                 this.store = props.store || context.store
 
                 invariant(this.store,
@@ -126,8 +138,10 @@ export default function connect(mapStateToProps, mapDispatchToProps, mergeProps,
                     `or explicitly pass "store" as a prop to "${connectDisplayName}".`
                 )
 
-                const storeState = this.store.getState()
+                const storeState = this.store.getState();
+                //this.state={storeState:storeState}
                 this.state = {storeState}
+                //清除缓存
                 this.clearCache()
             }
 

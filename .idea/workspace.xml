@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95a885d5-dd17-4ae3-b2f6-6e02e841d04d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Provider.js" afterPath="$PROJECT_DIR$/src/components/Provider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/components/Provider.spec.js" afterPath="$PROJECT_DIR$/test/components/Provider.spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/connect.js" afterPath="$PROJECT_DIR$/src/components/connect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/components/connect.spec.js" afterPath="$PROJECT_DIR$/test/components/connect.spec.js" />
     </list>
     <ignored path="react-redux.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +36,8 @@
       <file leaf-file-name="connect.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/connect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5968661">
-              <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.3803419">
+              <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -438,8 +435,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/connect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5968661">
-          <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.3803419">
+          <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
