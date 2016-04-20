@@ -395,12 +395,17 @@ export default function connect(mapStateToProps, mapDispatchToProps, mergeProps,
 
         Connect.displayName = connectDisplayName
         Connect.WrappedComponent = WrappedComponent
+
+
+        //上下文中可以提供store,但是不是必须的
         Connect.contextTypes = {
             store: storeShape
         }
+        //可见 Connect组件可以设置store属性，但是不是必须的
         Connect.propTypes = {
             store: storeShape
         }
+        //上面定义了两种store的来源，第一个来源比较常用。即，来自于上下文
 
         if (process.env.NODE_ENV !== 'production') {
             Connect.prototype.componentWillUpdate = function componentWillUpdate() {
