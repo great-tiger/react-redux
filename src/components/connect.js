@@ -10,6 +10,16 @@
  * Connect API 解释
  * connect([mapStateToProps], [mapDispatchToProps], [mergeProps], [options])
  * mapStateToProps
+ *
+ *
+ * 比较重要的代码片段
+ *  //向 react 组件 传递 mergedProps 属性，这是 React-Redux 于 React 交流的重要方式。通过属性传递数据。
+ * this.renderedElement = createElement(WrappedComponent,this.mergedProps)
+ *
+ * //向store中订阅处理程序。这样就可以形成一个链，dispath 触发--->> reducer 触发--->> handleChange 触发--->>setState 触发--->>render
+ * //简单点，省略中间过程：dispath 触发 页面更新(render)
+ * this.unsubscribe = this.store.subscribe(this.handleChange.bind(this))
+ *
  */
 import { Component, createElement } from 'react'
 import storeShape from '../utils/storeShape'
@@ -377,10 +387,11 @@ export default function connect(mapStateToProps, mapDispatchToProps, mergeProps,
                 if (!haveMergedPropsChanged && renderedElement) {
                     return renderedElement
                 }
-
+                //默认情况下：withRef 为 false
                 if (withRef) {
                     this.renderedElement = createElement(WrappedComponent, {...this.mergedProps,ref: 'wrappedInstance'})
                 } else {
+                    //向 react 组件 传递 mergedProps 属性，这是 React-Redux 于 React 交流的重要方式
                     this.renderedElement = createElement(WrappedComponent,this.mergedProps)
                 }
 
