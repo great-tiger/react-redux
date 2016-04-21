@@ -4,7 +4,7 @@
  *
  * 下面需要详细的介绍一下Connect组件功能
  * 1、可以访问到context中的store
- * 2、
+ * 2、Connect 组件本质是包装React组件，Connect与React组件通信是通过 属性 进行的。数据流向是单向的。
  *
  *
  * Connect API 解释
