@@ -50,6 +50,7 @@ function tryCatch(fn, ctx) {
 let nextVersion = 0
 
 export default function connect(mapStateToProps, mapDispatchToProps, mergeProps, options = {}) {
+    //Boolean(function(){})--->>> true
     const shouldSubscribe = Boolean(mapStateToProps)
 
     /**

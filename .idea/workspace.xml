@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95a885d5-dd17-4ae3-b2f6-6e02e841d04d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/connect.js" afterPath="$PROJECT_DIR$/src/components/connect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="react-redux.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +36,29 @@
       <file leaf-file-name="connect.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/connect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8701299">
-              <caret line="407" column="31" selection-start-line="407" selection-start-column="31" selection-end-line="407" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.72943723">
+              <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#3241#13837#0" expanded="false" />
+                <element signature="e#2702#2903#0" expanded="false" />
+                <element signature="e#3155#3229#0" expanded="false" />
+                <element signature="e#3412#3513#0" expanded="false" />
+                <element signature="e#3527#3765#0" expanded="false" />
+                <element signature="e#3806#4572#0" expanded="false" />
+                <element signature="e#5908#6504#0" expanded="false" />
+                <element signature="e#6558#7215#0" expanded="false" />
+                <element signature="e#7256#7574#0" expanded="false" />
+                <element signature="e#7618#7957#0" expanded="false" />
+                <element signature="e#7999#8365#0" expanded="false" />
+                <element signature="e#8394#8471#0" expanded="false" />
+                <element signature="e#8754#8910#0" expanded="false" />
+                <element signature="e#9046#9200#0" expanded="false" />
+                <element signature="e#9237#9324#0" expanded="false" />
+                <element signature="e#9351#9848#0" expanded="false" />
+                <element signature="e#10401#10455#0" expanded="false" />
+                <element signature="e#10519#10621#0" expanded="false" />
+                <element signature="e#10846#11127#0" expanded="false" />
+                <element signature="e#14380#14639#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -326,7 +343,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -437,11 +454,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/connect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8701299">
-          <caret line="407" column="31" selection-start-line="407" selection-start-column="31" selection-end-line="407" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.72943723">
+          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#3241#13837#0" expanded="false" />
+            <element signature="e#2702#2903#0" expanded="false" />
+            <element signature="e#3155#3229#0" expanded="false" />
+            <element signature="e#3412#3513#0" expanded="false" />
+            <element signature="e#3527#3765#0" expanded="false" />
+            <element signature="e#3806#4572#0" expanded="false" />
+            <element signature="e#5908#6504#0" expanded="false" />
+            <element signature="e#6558#7215#0" expanded="false" />
+            <element signature="e#7256#7574#0" expanded="false" />
+            <element signature="e#7618#7957#0" expanded="false" />
+            <element signature="e#7999#8365#0" expanded="false" />
+            <element signature="e#8394#8471#0" expanded="false" />
+            <element signature="e#8754#8910#0" expanded="false" />
+            <element signature="e#9046#9200#0" expanded="false" />
+            <element signature="e#9237#9324#0" expanded="false" />
+            <element signature="e#9351#9848#0" expanded="false" />
+            <element signature="e#10401#10455#0" expanded="false" />
+            <element signature="e#10519#10621#0" expanded="false" />
+            <element signature="e#10846#11127#0" expanded="false" />
+            <element signature="e#14380#14639#0" expanded="false" />
           </folding>
         </state>
       </provider>
