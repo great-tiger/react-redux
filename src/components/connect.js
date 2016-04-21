@@ -378,17 +378,11 @@ export default function connect(mapStateToProps, mapDispatchToProps, mergeProps,
                     return renderedElement
                 }
 
-                //这段代码是正常代码，但是编辑器识别不出来这种语法，为了看代码方便，先去掉了
-                //        if (withRef) {
-                //            this.renderedElement = createElement(WrappedComponent, {
-                //                    ...this.mergedProps,
-                //                ref: 'wrappedInstance'
-                //        })
-                //    } else {
-                //        this.renderedElement = createElement(WrappedComponent,
-                //    this.mergedProps
-                //)
-                //}
+                if (withRef) {
+                    this.renderedElement = createElement(WrappedComponent, {...this.mergedProps,ref: 'wrappedInstance'})
+                } else {
+                    this.renderedElement = createElement(WrappedComponent,this.mergedProps)
+                }
 
                 return this.renderedElement
             }
