@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95a885d5-dd17-4ae3-b2f6-6e02e841d04d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/connect.js" afterPath="$PROJECT_DIR$/src/components/connect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/components/connect.spec.js" afterPath="$PROJECT_DIR$/test/components/connect.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="95a885d5-dd17-4ae3-b2f6-6e02e841d04d" name="Default" comment="" />
     <ignored path="react-redux.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +72,8 @@
       <file leaf-file-name="connect.spec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/components/connect.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.617849">
-              <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+            <state vertical-scroll-proportion="-37.306637">
+              <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -608,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/components/connect.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.617849">
-          <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+        <state vertical-scroll-proportion="-37.306637">
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
           <folding />
         </state>
       </provider>
