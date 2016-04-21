@@ -34,7 +34,7 @@ const defaultMapStateToProps = state => ({}) // eslint-disable-line no-unused-va
 const defaultMapDispatchToProps = dispatch => ({dispatch})
 /**
  * connect 第三个参数的默认值
- * 默认合并属性优先级stateProps > dispatchProps > parentProps
+ * 默认合并属性优先级parentProps > stateProps > dispatchProps
  */
 const defaultMergeProps = (stateProps, dispatchProps, parentProps) => ({
     ...parentProps,

@@ -76,6 +76,8 @@ describe('React', () => {
       const stub = TestUtils.findRenderedComponentWithType(container, Passthrough)
       expect(stub.props.pass).toEqual('through')
       expect(stub.props.foo).toEqual('bar')
+      //在这种情况下，Container中属性的优先级高于mapStateToProps
+      //具体可查看 defaultMergeProps 函数
       expect(stub.props.baz).toEqual(42)
       expect(stub.props.hello).toEqual(undefined)
       expect(() =>
